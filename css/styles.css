@@ -215,7 +215,7 @@ p {
     border-radius: 100%;
     border-style: solid;
     border-color: #fff;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-right: 85%;
   }
   #cta {
@@ -237,4 +237,9 @@ p {
 
 .social-icon:hover {
   box-shadow: 1px 1px 5px 5px #FFC3C3;
+}
+@media (max-width: 360px){
+  .social-icon{
+    margin: 10px 5px;
+  }
 }
