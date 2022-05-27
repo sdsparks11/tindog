@@ -221,8 +221,8 @@ p {
     border-style: solid;
     border-color: #fff;
     margin-top:10px;
-    margin-left: 50%;
-    margin-right: 82%;
+    margin-left: 40%;
+    margin-right: 70%;
   }
   #cta {
   background-color: #FF8C8C;
@@ -249,6 +249,6 @@ p {
     margin: 10px 5px;
   }
   #footer{
-    padding:95px;
+    padding:105px;
   }
 }
