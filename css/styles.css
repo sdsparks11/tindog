@@ -230,6 +230,10 @@ p {
   color: #fff;
   padding: 42px 42px 50px;
   }
+  #testimonials .testimonial-text{
+  font-size: 1rem;  
+  }
+  
 }
 /* Footer Section */
 #footer {
