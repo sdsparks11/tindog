@@ -220,15 +220,15 @@ p {
     border-radius: 100%;
     border-style: solid;
     border-color: #fff;
-    margin-top:8px;
-    margin-left: 24%;
+    margin-top:10px;
+    margin-left: 50%;
     margin-right: 82%;
   }
   #cta {
   background-color: #FF8C8C;
   text-align: center;
   color: #fff;
-  padding: 42px 42px 48px;
+  padding: 42px 42px 50px;
   }
 }
 /* Footer Section */
