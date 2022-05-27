@@ -215,14 +215,14 @@ p {
     border-radius: 100%;
     border-style: solid;
     border-color: #fff;
-    margin-left: 1%;
+    margin-left: 5%;
     margin-right: 85%;
   }
   #cta {
   background-color: #FF8C8C;
   text-align: center;
   color: #fff;
-  padding: 40px;
+  padding: 50px;
   }
 }
 /* Footer Section */
