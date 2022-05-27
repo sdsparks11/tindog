@@ -1,0 +1,220 @@
+/* Styling HTML elements */
+html, body {
+  font-family: "Montserrat";
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0
+}
+/* Advanced CSS-Multiple Selector */
+h1, h2, h3, h4 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Title Section */
+#title {
+  background-color: #FF8C8C;
+}
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.nav-bg {
+  background-color: #FF8C8C;
+  padding-top: 1rem;
+}
+
+.navbar-brand-font {
+  font-family: "Lobster";
+  font-size: 2.1rem;
+  padding-left: 1.8rem;
+}
+/* Advanced CSS-Hierarchical Selector */
+#title .container-fluid {
+  padding: 4% 10% 22%;
+}
+
+/* Applicable to the download Buttons in the Cta section */
+.btn-dark {
+  margin: 5% 3% 5% 0;
+}
+
+.btn-dark:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-outline-dark {
+  margin: 5% 3% 5% 0;
+}
+
+.btn-outline-dark:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar-collapse {
+  padding-right: 2rem;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.intro-image {
+  width: 25%;
+  position: absolute;
+  right: 25%;
+  transform: rotate(15deg);
+}
+
+@media (max-width:990px) {
+  .intro-image {
+    width: 50%;
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title .container-fluid {
+    padding: 4% 10% 2%;
+  }
+}
+
+/* Feature Section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 2.2%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: skyblue !important;
+}
+
+/* Testimonial Section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #EF9F9F;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #fff;
+  margin: 20px;
+}
+
+/* Same Advanced CSS Styling Applicable to both the classes in different sections- Hirarchical Selectors */
+#testimonials .testimonial-text,#pricing .pricing-pickline-header{
+  font-size: 2.5rem;
+}
+.beagle-name,.lady-name,.man-name {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Press Section */
+#press {
+  background-color: #EF9F9F;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-images {
+  width: 18%;
+  margin: 15px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 97px;
+}
+
+.card-title {
+  color: #000;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 100%;
+  border: 1px solid #D0C9C0;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 5px 5px #FFC3C3;
+}
+
+.free-btn:hover, .pro-btn:hover, .ex-btn:hover {
+  background-color: #EF9F9F;
+  color: #fff;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #FF8C8C;
+  text-align: center;
+  color: #fff;
+  padding: 100px;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.couple-footer-dog {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer Section */
+#footer {
+  padding: 110px;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  box-shadow: 1px 1px 5px 5px #FFC3C3;
+}
