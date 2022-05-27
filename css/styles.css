@@ -200,8 +200,7 @@ p {
   border-radius: 100%;
   border-style: solid;
   border-color: #fff;
-  margin-left: auto;
-  margin-right: auto;
+  margin:20px;
 }
 
 /* Footer Section */
