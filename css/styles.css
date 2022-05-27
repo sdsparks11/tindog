@@ -210,8 +210,8 @@ p {
 @media (max-width:360px) {
   .couple-footer-dog {
     display:block
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     border-style: solid;
     border-color: #fff;
@@ -222,7 +222,7 @@ p {
   background-color: #FF8C8C;
   text-align: center;
   color: #fff;
-  padding: 80px;
+  padding: 75px;
   }
 }
 /* Footer Section */
