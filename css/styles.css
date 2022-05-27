@@ -33,7 +33,7 @@ p {
 }
 @media(max-width: 360px){
   .big-heading {
-    line-height:1;
+    line-height:1.2;
     font-size: 2rem;
   }
 }
