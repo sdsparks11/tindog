@@ -215,7 +215,7 @@ p {
     border-radius: 100%;
     border-style: solid;
     border-color: #fff;
-    margin-left: 8%;
+    margin-left: 11%;
     margin-right: 85%;
   }
   #cta {
@@ -243,6 +243,6 @@ p {
     margin: 10px 5px;
   }
   #footer{
-    padding:80px;
+    padding:60px;
   }
 }
