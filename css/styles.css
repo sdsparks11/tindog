@@ -214,14 +214,14 @@ p {
 }
 @media (max-width:360px) {
   .couple-footer-dog {
-    display:block
+    display:block;
     width: 150px;
     height: 150px;
     border-radius: 100%;
     border-style: solid;
     border-color: #fff;
     margin-top:10px;
-    margin-left: 35%;
+    margin-left: 27%;
     margin-right: 80%;
   }
   #cta {
@@ -251,8 +251,5 @@ p {
 @media (max-width: 360px){
   .social-icon{
     margin: 10px 5px;
-  }
-  #footer{
-    padding:99px;
   }
 }
