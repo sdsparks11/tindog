@@ -220,14 +220,14 @@ p {
     border-radius: 100%;
     border-style: solid;
     border-color: #fff;
-    margin-left: 6%;
+    margin-left: 18%;
     margin-right: 85%;
   }
   #cta {
   background-color: #FF8C8C;
   text-align: center;
   color: #fff;
-  padding: 42px;
+  padding: 42px 42px 48px;
   }
 }
 /* Footer Section */
