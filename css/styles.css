@@ -131,6 +131,9 @@ p {
 #testimonials .testimonial-text,#pricing .pricing-pickline-header{
   font-size: 2.5rem;
 }
+@media(max-width: 360px){
+  font-size: 1.5rem;
+}
 .beagle-name,.man-name {
   color: #fff;
   font-family: "Montserrat";
@@ -222,7 +225,7 @@ p {
   background-color: #FF8C8C;
   text-align: center;
   color: #fff;
-  padding: 53px;
+  padding: 48px;
   }
 }
 /* Footer Section */
