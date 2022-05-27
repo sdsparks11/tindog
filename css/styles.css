@@ -31,6 +31,12 @@ p {
   line-height: 1.4;
   color: #fff;
 }
+@media(max-width: 360px){
+  .big-heading {
+    line-height:1;
+    font-size: 2rem;
+  }
+}
 
 .nav-bg {
   background-color: #FF8C8C;
