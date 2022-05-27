@@ -221,8 +221,8 @@ p {
     border-style: solid;
     border-color: #fff;
     margin-top:10px;
-    margin-left: 40%;
-    margin-right: 70%;
+    margin-left: 35%;
+    margin-right: 80%;
   }
   #cta {
   background-color: #FF8C8C;
@@ -231,7 +231,7 @@ p {
   padding: 42px 42px 50px;
   }
   #testimonials .testimonial-text{
-  font-size: 1rem;  
+  font-size: 1.4rem;  
   }
   
 }
@@ -253,6 +253,6 @@ p {
     margin: 10px 5px;
   }
   #footer{
-    padding:105px;
+    padding:99px;
   }
 }
