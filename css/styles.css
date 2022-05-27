@@ -202,7 +202,17 @@ p {
   border-color: #fff;
   margin:20px;
 }
-
+@media (max-width:360px) {
+  .couple-footer-dog{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #fff;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+}
 /* Footer Section */
 #footer {
   padding: 110px;
