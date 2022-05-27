@@ -205,13 +205,14 @@ p {
 }
 @media (max-width:360px) {
   .couple-footer-dog {
-    width: 200px;
-    height: 200px;
+    display:block
+    width: 180px;
+    height: 180px;
     border-radius: 100%;
     border-style: solid;
     border-color: #fff;
     margin-left: 100px;
-    margin-right: 500px;
+    margin-right: 5000px;
   }
 }
 /* Footer Section */
