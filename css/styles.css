@@ -153,7 +153,11 @@ p {
 #pricing {
   padding: 97px;
 }
-
+@media(max-width: 360px){
+  #pricing{
+    padding:50px;
+  }
+}
 .card-title {
   color: #000;
 }
