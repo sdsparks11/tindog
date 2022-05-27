@@ -13,6 +13,11 @@ h1, h2, h3, h4 {
 p {
   color: #8f8f8f;
 }
+@media(max-width: 360px){
+  p{
+    font-size: x-small;
+  }
+}
 
 /* Title Section */
 #title {
@@ -215,7 +220,7 @@ p {
     border-radius: 100%;
     border-style: solid;
     border-color: #fff;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-right: 85%;
   }
   #cta {
